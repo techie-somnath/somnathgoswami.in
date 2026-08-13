@@ -23,9 +23,32 @@ function LinkedinIcon() {
   )
 }
 
+function InstagramIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" className="h-5 w-5">
+      <rect
+        x="3"
+        y="3"
+        width="18"
+        height="18"
+        rx="5"
+        stroke="currentColor"
+        strokeWidth="1.6"
+      />
+      <circle cx="12" cy="12" r="4.2" stroke="currentColor" strokeWidth="1.6" />
+      <circle cx="17.15" cy="6.85" r="1.1" fill="currentColor" />
+    </svg>
+  )
+}
+
 const LINKS = [
   { label: 'LinkedIn', href: 'https://linkedin.com', Icon: LinkedinIcon },
   { label: 'GitHub', href: 'https://github.com', Icon: GithubIcon },
+  {
+    label: 'Instagram',
+    href: 'https://instagram.com/isomnathgoswami/?hl=en',
+    Icon: InstagramIcon,
+  },
   { label: 'Email', href: 'mailto:hello@example.com', Icon: Mail },
 ]
 
