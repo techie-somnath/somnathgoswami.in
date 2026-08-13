@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils'
 const ROLES = [
   'Full-Stack Developer',
   'Cloud Practitioner',
-  'Chart Analyst,
+  'Chart Analyst',
   'Endurance Athlete',
 ]
 
