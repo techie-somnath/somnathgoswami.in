@@ -20,7 +20,7 @@ export function HeroSection() {
       />
 
       <div className="mx-auto w-full max-w-5xl">
-        <h1 className="mt-6 font-heading text-[16vw] font-extrabold uppercase leading-[0.88] tracking-[-0.02em] sm:text-6xl md:text-7xl lg:text-[7rem]">
+        <h1 className="mt-6 font-heading text-[12vw] font-extrabold uppercase leading-[0.88] tracking-[-0.02em] sm:text-5xl md:text-6xl lg:text-[5.5rem]">
           <span className="block text-foreground">Somnath</span>
           <span className="block text-muted-foreground">Goswami</span>
         </h1>
