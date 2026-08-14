@@ -20,10 +20,10 @@ export function HeroSection() {
       />
 
       <div className="mx-auto w-full max-w-4xl">
-        <h1 className="mt-6 font-heading text-[13vw] font-bold leading-[0.95] tracking-tight text-foreground sm:text-6xl md:text-7xl lg:text-8xl">
+        <h1 className="animate-rise font-display mt-7 text-[clamp(2.75rem,11vw,9rem)] leading-[0.86] font-semibold tracking-[-0.05em] opacity-0 [animation-delay:220ms]">
           SOMNATH
           <br />
-          GOSWAMI
+          <span className="text-muted-foreground">GOSWAMI</span>
         </h1>
 
         <div className="mt-8 h-6">
