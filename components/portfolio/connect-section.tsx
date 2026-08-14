@@ -42,14 +42,14 @@ function InstagramIcon() {
 }
 
 const LINKS = [
-  { label: 'LinkedIn', href: 'https://linkedin.com', Icon: LinkedinIcon },
-  { label: 'GitHub', href: 'https://github.com', Icon: GithubIcon },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/somnath-goswami-a9690a199/', Icon: LinkedinIcon },
+  { label: 'GitHub', href: 'https://github.com/techie-somnath', Icon: GithubIcon },
   {
     label: 'Instagram',
     href: 'https://instagram.com/isomnathgoswami/?hl=en',
     Icon: InstagramIcon,
   },
-  { label: 'Email', href: 'mailto:hello@example.com', Icon: Mail },
+  { label: 'Email', href: 'mailto:somnathgoswami949@gmail.com', Icon: Mail },
 ]
 
 export function ConnectSection() {

@@ -20,10 +20,6 @@ export function HeroSection() {
       />
 
       <div className="mx-auto w-full max-w-4xl">
-        <p className="font-mono text-xs uppercase tracking-[0.25em] text-dim">
-          Portfolio — 2026
-        </p>
-
         <h1 className="mt-6 font-heading text-[13vw] font-bold leading-[0.95] tracking-tight text-foreground sm:text-6xl md:text-7xl lg:text-8xl">
           SOMNATH
           <br />
