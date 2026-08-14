@@ -62,7 +62,7 @@ export function AnalysisSection() {
 
         <ScrollReveal delay={80}>
           <h2 className="mt-8 font-heading text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
-            Technical Chart Analysis
+            Chart Analyst
           </h2>
         </ScrollReveal>
 
