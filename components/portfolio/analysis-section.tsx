@@ -1,5 +1,5 @@
 import { ScrollReveal } from '@/components/portfolio/scroll-reveal'
-import { ChartLine } from '@/components/portfolio/chart-line'
+import { CandlestickBackdrop } from '@/components/portfolio/candlestick-backdrop'
 
 const TOPICS = [
   {
@@ -44,9 +44,9 @@ export function AnalysisSection() {
       id="analysis"
       className="relative overflow-hidden px-6 py-28 sm:px-10 sm:py-40"
     >
-      <ChartLine className="absolute inset-x-0 top-0 -z-10 h-[420px] w-full opacity-80" />
+      <CandlestickBackdrop className="absolute inset-0 z-0 h-full w-full" />
 
-      <div className="mx-auto max-w-4xl">
+      <div className="relative z-10 mx-auto max-w-4xl">
         <ScrollReveal>
           <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-1.5">
             <span className="relative flex h-1.5 w-1.5">

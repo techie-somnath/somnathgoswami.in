@@ -19,11 +19,10 @@ export function HeroSection() {
         }}
       />
 
-      <div className="mx-auto w-full max-w-4xl">
-        <h1 className="mt-6 font-heading text-[13vw] font-bold leading-[0.95] tracking-tight text-foreground sm:text-6xl md:text-7xl lg:text-8xl">
-          SOMNATH
-          <br />
-          GOSWAMI
+      <div className="mx-auto w-full max-w-5xl">
+        <h1 className="mt-6 font-heading text-[12vw] font-extrabold uppercase leading-[0.88] tracking-[-0.02em] sm:text-5xl md:text-6xl lg:text-[5.5rem]">
+          <span className="block text-foreground">Somnath</span>
+          <span className="block text-muted-foreground">Goswami</span>
         </h1>
 
         <div className="mt-8 h-6">
