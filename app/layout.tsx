@@ -1,18 +1,12 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Sora, Inter, JetBrains_Mono } from 'next/font/google'
+import { Plus_Jakarta_Sans, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
 
-const sora = Sora({
+const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ['latin'],
-  variable: '--font-sora',
-  weight: ['400', '600', '700', '800'],
-})
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  weight: ['300', '400', '500'],
+  variable: '--font-plus-jakarta-sans',
+  weight: ['300', '400', '500', '600', '700', '800'],
 })
 
 const jetbrainsMono = JetBrains_Mono({
@@ -58,7 +52,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`dark bg-background ${sora.variable} ${inter.variable} ${jetbrainsMono.variable}`}
+      className={`dark bg-background ${plusJakartaSans.variable} ${jetbrainsMono.variable}`}
     >
       <body className="antialiased font-sans">
         {children}
