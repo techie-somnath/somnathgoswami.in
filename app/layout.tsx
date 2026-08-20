@@ -1,6 +1,6 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Plus_Jakarta_Sans, JetBrains_Mono } from 'next/font/google'
+import { Plus_Jakarta_Sans, Space_Mono } from 'next/font/google'
 import './globals.css'
 
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -9,10 +9,10 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   weight: ['300', '400', '500', '600', '700', '800'],
 })
 
-const jetbrainsMono = JetBrains_Mono({
+const spaceMono = Space_Mono({
   subsets: ['latin'],
-  variable: '--font-jetbrains-mono',
-  weight: ['400', '500'],
+  variable: '--font-space-mono',
+  weight: ['400', '700'],
 })
 
 export const metadata: Metadata = {
@@ -52,7 +52,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`dark bg-background ${plusJakartaSans.variable} ${jetbrainsMono.variable}`}
+      className={`dark bg-background ${plusJakartaSans.variable} ${spaceMono.variable}`}
     >
       <body className="antialiased font-sans">
         {children}
