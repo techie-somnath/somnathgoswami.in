@@ -81,9 +81,6 @@ export default async function ActivityPage({
                 Event pictures
               </h2>
             </div>
-            <span className="font-mono text-[10px] uppercase tracking-[0.15em] text-dim">
-              Add your images
-            </span>
           </div>
 
           <div className="mt-8">
