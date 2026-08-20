@@ -7,10 +7,10 @@ const ENTRIES = [
     org: 'CG Infinity',
     period: '2022 — Present',
     description:
-      'Backend architecture on Azure Functions, integrating 5+ third-party systems with Salesforce. Built CI/CD pipelines.',
+      'Engineered secure, high-throughput APIs and seamless enterprise integrations to automate complex business processes. Spearheaded feature rollouts, enhanced system uptime, and maintained automated CI/CD delivery pipelines.',
     stack: [
       '.NET Core',
-      'AngularJS', ̑
+      'AngularJS',
       'Azure Functions',
       'Azure DevOps',
       'SQL Server',
