@@ -16,7 +16,7 @@ export const ACTIVITIES: Activity[] = [
     intro: 'A practice built around patience, measurable progress, and showing up consistently. This is where I document the routines, milestones, and lessons that keep the work grounded.',
     highlights: ['Training notes', 'Personal milestones', 'Lessons from consistency'],
     gallerySlots: ['strength-training-01.jpg', 'strength-training-02.jpg', 'strength-training-03.jpg'],
-    instagramHighlightUrl: 'https://www.instagram.com/stories/highlights/17888529267444043/',
+    instagramHighlightUrl: '',
   },
   {
     slug: 'running',
@@ -52,7 +52,7 @@ export const ACTIVITIES: Activity[] = [
     intro: 'Devil Circuit is a test of discipline under pressure. I will use this page to capture the preparation, event memories, and lessons from pushing through every round.',
     highlights: ['Circuit preparation', 'Event memories', 'Lessons from the effort'],
     gallerySlots: ['devil-circuit-01.jpg', 'devil-circuit-02.jpg', 'devil-circuit-03.jpg'],
-    instagramHighlightUrl: '',
+    instagramHighlightUrl: 'https://www.instagram.com/stories/highlights/17888529267444043/',
   },
   {
     slug: 'trekking-outdoors',
