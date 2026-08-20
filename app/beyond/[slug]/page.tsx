@@ -91,13 +91,25 @@ export default async function ActivityPage({
           </div>
         </section>
 
-        <Link
-          href="/#connect"
-          className="group inline-flex items-center gap-2 border-t border-border pt-6 font-mono text-xs uppercase tracking-[0.2em] text-dim transition-colors hover:text-primary"
-        >
-          Have a story to share? Connect
-          <ArrowUpRight aria-hidden="true" />
-        </Link>
+        {activity.instagramHighlightUrl ? (
+          <a
+            href={activity.instagramHighlightUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="group inline-flex items-center gap-2 border-t border-border pt-6 font-mono text-xs uppercase tracking-[0.2em] text-dim transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+          >
+            Have a story to share? Connect
+            <ArrowUpRight aria-hidden="true" />
+          </a>
+        ) : (
+          <Link
+            href="/#connect"
+            className="group inline-flex items-center gap-2 border-t border-border pt-6 font-mono text-xs uppercase tracking-[0.2em] text-dim transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+          >
+            Have a story to share? Connect
+            <ArrowUpRight aria-hidden="true" />
+          </Link>
+        )}
       </div>
     </main>
   )

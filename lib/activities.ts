@@ -5,6 +5,7 @@ export type Activity = {
   intro: string
   highlights: string[]
   gallerySlots: string[]
+  instagramHighlightUrl?: string
 }
 
 export const ACTIVITIES: Activity[] = [
@@ -15,6 +16,7 @@ export const ACTIVITIES: Activity[] = [
     intro: 'A practice built around patience, measurable progress, and showing up consistently. This is where I document the routines, milestones, and lessons that keep the work grounded.',
     highlights: ['Training notes', 'Personal milestones', 'Lessons from consistency'],
     gallerySlots: ['strength-training-01.jpg', 'strength-training-02.jpg', 'strength-training-03.jpg'],
+    instagramHighlightUrl: '',
   },
   {
     slug: 'running',
@@ -23,6 +25,7 @@ export const ACTIVITIES: Activity[] = [
     intro: 'Running gives the week a simple rhythm: lace up, get outside, and let the distance build. I will use this space for routes, race days, and the small wins between them.',
     highlights: ['Routes and distances', 'Race-day notes', 'Training reflections'],
     gallerySlots: ['running-01.jpg', 'running-02.jpg', 'running-03.jpg'],
+    instagramHighlightUrl: '',
   },
   {
     slug: 'hyrox',
@@ -31,6 +34,7 @@ export const ACTIVITIES: Activity[] = [
     intro: 'HYROX sits at the intersection of strength and endurance. This page is a home for event preparation, workouts, competition days, and what the process teaches along the way.',
     highlights: ['Event preparation', 'Workout breakdowns', 'Competition recaps'],
     gallerySlots: ['hyrox-01.jpg', 'hyrox-02.jpg', 'hyrox-03.jpg'],
+    instagramHighlightUrl: '',
   },
   {
     slug: 'athletics',
@@ -39,6 +43,7 @@ export const ACTIVITIES: Activity[] = [
     intro: 'Athletics is less about a single result and more about building a durable relationship with effort. I will collect training stories, event memories, and the habits behind them here.',
     highlights: ['Event memories', 'Practice logs', 'What I am learning'],
     gallerySlots: ['athletics-01.jpg', 'athletics-02.jpg', 'athletics-03.jpg'],
+    instagramHighlightUrl: '',
   },
   {
     slug: 'endurance',
@@ -47,6 +52,7 @@ export const ACTIVITIES: Activity[] = [
     intro: 'Endurance work makes patience tangible. This page will capture the longer efforts, the preparation behind them, and the quiet satisfaction of finishing strong.',
     highlights: ['Long efforts', 'Preparation systems', 'Post-event reflections'],
     gallerySlots: ['endurance-01.jpg', 'endurance-02.jpg', 'endurance-03.jpg'],
+    instagramHighlightUrl: '',
   },
   {
     slug: 'trekking-outdoors',
@@ -55,6 +61,7 @@ export const ACTIVITIES: Activity[] = [
     intro: 'Time outdoors is a reset from the screen. I will use this page for trails, trips, event photos, and the places that make slowing down feel productive.',
     highlights: ['Trail notes', 'Trip journals', 'Outdoor event galleries'],
     gallerySlots: ['trekking-outdoors-01.jpg', 'trekking-outdoors-02.jpg', 'trekking-outdoors-03.jpg'],
+    instagramHighlightUrl: '',
   },
 ]
 
