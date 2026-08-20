@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { ArrowLeft, ArrowUpRight } from 'lucide-react'
+import { ActivityGallery } from '@/components/portfolio/activity-gallery'
 import { getActivity, ACTIVITIES } from '@/lib/activities'
 
 export function generateStaticParams() {
@@ -85,17 +86,8 @@ export default async function ActivityPage({
             </span>
           </div>
 
-          <div className="mt-8 grid gap-4 sm:grid-cols-3">
-            {activity.gallerySlots.map((slot, index) => (
-              <div
-                key={slot}
-                className="flex aspect-[4/3] flex-col justify-end border border-dashed border-border bg-card p-5"
-              >
-                <span className="font-mono text-xs text-primary">0{index + 1}</span>
-                <p className="mt-2 text-sm text-muted-foreground">Replace with</p>
-                <code className="mt-1 break-all font-mono text-[10px] text-dim">public/images/activities/{slot}</code>
-              </div>
-            ))}
+          <div className="mt-8">
+            <ActivityGallery title={activity.title} slots={activity.gallerySlots} />
           </div>
         </section>
 
