@@ -3,13 +3,14 @@ import { ScrollReveal } from '@/components/portfolio/scroll-reveal'
 
 const ENTRIES = [
   {
-    role: 'Consultant',
+    role: 'Associate',
     org: 'CG Infinity',
-    period: '2023 — Present',
+    period: '2022 — Present',
     description:
-      'Backend architecture on Azure Functions, integrating 5+ third-party systems with Salesforce. Built CI/CD pipelines and mentored 8–10 developers.',
+      'Backend architecture on Azure Functions, integrating 5+ third-party systems with Salesforce. Built CI/CD pipelines.',
     stack: [
       '.NET Core',
+      'AngularJS', ̑
       'Azure Functions',
       'Azure DevOps',
       'SQL Server',
