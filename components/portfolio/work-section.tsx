@@ -84,10 +84,10 @@ export function WorkSection() {
 
         <ScrollReveal delay={220}>
           <a
-            href="#"
+            href="/resume.pdf" target="_blank" rel="noopener noreferrer"
             className="mt-14 inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.15em] text-foreground transition-colors hover:text-primary"
           >
-            View résumé
+            View Resume
             <ArrowUpRight className="h-3.5 w-3.5" />
           </a>
         </ScrollReveal>
