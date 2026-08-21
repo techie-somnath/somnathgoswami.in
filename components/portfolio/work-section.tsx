@@ -3,13 +3,14 @@ import { ScrollReveal } from '@/components/portfolio/scroll-reveal'
 
 const ENTRIES = [
   {
-    role: 'Consultant',
+    role: 'Associate',
     org: 'CG Infinity',
-    period: '2023 — Present',
+    period: '2022 — Present',
     description:
-      'Backend architecture on Azure Functions, integrating 5+ third-party systems with Salesforce. Built CI/CD pipelines and mentored 8–10 developers.',
+      'Engineered secure, high-throughput APIs and seamless enterprise integrations to automate complex business processes. Spearheaded feature rollouts, enhanced system uptime, and maintained automated CI/CD delivery pipelines.',
     stack: [
       '.NET Core',
+      'AngularJS',
       'Azure Functions',
       'Azure DevOps',
       'SQL Server',
@@ -84,10 +85,10 @@ export function WorkSection() {
 
         <ScrollReveal delay={220}>
           <a
-            href="#"
+            href="/Resume.pdf" target="_blank" rel="noopener noreferrer"
             className="mt-14 inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.15em] text-foreground transition-colors hover:text-primary"
           >
-            View résumé
+            View Resume
             <ArrowUpRight className="h-3.5 w-3.5" />
           </a>
         </ScrollReveal>

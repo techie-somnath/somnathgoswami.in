@@ -49,7 +49,7 @@
     sans-serif;
   --font-heading: var(--font-plus-jakarta-sans), ui-sans-serif, system-ui,
     sans-serif;
-  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
+  --font-mono: var(--font-space-mono), ui-monospace, monospace;
 }
 
 :root {
