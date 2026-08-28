@@ -4,37 +4,39 @@ import { CandlestickBackdrop } from '@/components/portfolio/candlestick-backdrop
 const TOPICS = [
   {
     number: '01',
-    title: 'Price action',
+    title: 'Repetition of Structure',
     description:
-      'Reading what the candles actually say before anything else.',
+      'Using the fractal nature of markets to anticipate recurring structural behavior across timeframes.',
   },
   {
     number: '02',
-    title: 'Market structure',
-    description: 'Higher highs, lower lows, and where structure breaks.',
+    title: 'MMC — Mirror Market Concept',
+    description:
+      'Reading mirrored price behavior to compare market structure, reactions, and potential continuation.',
   },
   {
     number: '03',
-    title: 'Trend analysis',
+    title: 'Chart Patterns',
     description:
-      'Direction, strength, and how long a move has been running.',
+      'Evaluating recurring formations through their location, context, and likely structural outcome.',
   },
   {
     number: '04',
-    title: 'Technical indicators',
-    description: 'Used as confirmation, never as the whole argument.',
+    title: 'Risk Management',
+    description:
+      'Defining invalidation, protecting capital, and separating a good process from a single outcome.',
   },
   {
     number: '05',
-    title: 'Risk management',
+    title: 'Candlestick Anatomy & Psychology',
     description:
-      'Position sizing and defined invalidation — the boring essentials.',
+      'Interpreting candle behavior to read sentiment, exhaustion, and institutional footprints.',
   },
   {
     number: '06',
-    title: 'Market psychology',
+    title: 'Market Structure & Mapping',
     description:
-      'Why participants behave the way they do at key levels.',
+      'Mapping multi-timeframe zones, structural shifts, and directional bias with a repeatable framework.',
   },
 ]
 
@@ -54,8 +56,8 @@ export function AnalysisSection() {
               <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-primary" />
             </span>
             <span className="font-mono text-[11px] uppercase tracking-[0.12em] text-muted-foreground">
-              Currently focused on market structure &amp; order flow —
-              journaling daily
+              Independent chart analysis — mapping structure, liquidity, and
+              sentiment across timeframes
             </span>
           </div>
         </ScrollReveal>
@@ -68,26 +70,29 @@ export function AnalysisSection() {
 
         <ScrollReveal delay={140}>
           <p className="mt-6 max-w-2xl text-pretty text-lg font-light leading-relaxed text-muted-foreground sm:text-xl">
-            This is the thing I&apos;m actually building toward. Not a
-            course I took — a discipline I&apos;m in daily. Markets are a
-            system with structure, feedback and human behaviour baked in,
-            which is exactly the kind of thing I like taking apart slowly.
+            As an independent Chart Analyst, I conduct in-depth technical
+            evaluations of financial markets, focusing on market structure
+            repetition and candlestick analysis rather than indicator-heavy
+            strategies. I map multi-timeframe structures, interpret market
+            sentiment, and isolate critical liquidity to distinguish genuine
+            structural breaks from market fakeouts.
           </p>
         </ScrollReveal>
 
         <div className="mt-16 grid gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
           {TOPICS.map((topic, i) => (
             <ScrollReveal key={topic.number} delay={i * 70}>
-              <div className="group h-full bg-background p-8 transition-all duration-300 hover:-translate-y-1 hover:bg-card">
-                <span className="font-mono text-xs text-dim transition-colors group-hover:text-primary">
-                  {topic.number}
-                </span>
-                <h3 className="mt-4 font-heading text-lg font-semibold text-foreground">
+              <div className="group relative h-full overflow-hidden bg-background p-8 pb-10 transition-all duration-300 hover:-translate-y-1 hover:bg-card">
+                <h3 className="font-heading text-lg font-semibold text-foreground">
                   {topic.title}
                 </h3>
                 <p className="mt-3 text-sm font-light leading-relaxed text-muted-foreground">
                   {topic.description}
                 </p>
+                <span
+                  aria-hidden="true"
+                  className="absolute inset-x-0 bottom-0 h-1 origin-left scale-x-0 bg-chart-purple transition-transform duration-500 ease-out group-hover:scale-x-100"
+                />
               </div>
             </ScrollReveal>
           ))}

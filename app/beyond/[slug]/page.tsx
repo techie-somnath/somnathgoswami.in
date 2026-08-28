@@ -84,7 +84,18 @@ export default async function ActivityPage({
           </div>
 
           <div className="mt-8">
-            <ActivityGallery title={activity.title} slots={activity.gallerySlots} />
+            {activity.slug === 'hyrox' ? (
+              <div className="flex aspect-[16/9] items-center justify-center border border-border bg-card">
+                <div className="px-6 py-5 text-center sm:px-12 sm:py-8">
+                  <p className="font-mono text-xs uppercase tracking-[0.25em] text-primary">Event archive</p>
+                  <p className="mt-3 font-heading text-4xl font-extrabold uppercase tracking-tight text-foreground sm:text-7xl">
+                    Coming soon
+                  </p>
+                </div>
+              </div>
+            ) : (
+              <ActivityGallery title={activity.title} slots={activity.gallerySlots} />
+            )}
           </div>
         </section>
 
