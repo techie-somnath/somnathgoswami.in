@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { ArrowLeft, ArrowUpRight } from 'lucide-react'
 import { ActivityGallery } from '@/components/portfolio/activity-gallery'
-import { CandlestickBackdrop } from '@/components/portfolio/candlestick-backdrop'
 import { getActivity, ACTIVITIES } from '@/lib/activities'
 
 export function generateStaticParams() {
@@ -86,11 +85,8 @@ export default async function ActivityPage({
 
           <div className="mt-8">
             {activity.slug === 'hyrox' ? (
-              <div className="relative isolate flex aspect-[16/9] items-center justify-center overflow-hidden border border-border bg-card">
-                <div className="absolute inset-[-8%] opacity-45 blur-[3px]" aria-hidden="true">
-                  <CandlestickBackdrop className="h-full w-full" />
-                </div>
-                <div className="relative z-10 bg-background/70 px-6 py-5 text-center backdrop-blur-md sm:px-12 sm:py-8">
+              <div className="flex aspect-[16/9] items-center justify-center border border-border bg-card">
+                <div className="px-6 py-5 text-center sm:px-12 sm:py-8">
                   <p className="font-mono text-xs uppercase tracking-[0.25em] text-primary">Event archive</p>
                   <p className="mt-3 font-heading text-4xl font-extrabold uppercase tracking-tight text-foreground sm:text-7xl">
                     Coming soon
