@@ -4,54 +4,36 @@ import { CandlestickBackdrop } from '@/components/portfolio/candlestick-backdrop
 const TOPICS = [
   {
     number: '01',
-    title: 'Technical Analysis',
-    description:
-      'A price-first approach to reading markets through structure, momentum, and context.',
-  },
-  {
-    number: '02',
-    title: 'Trend Analysis',
-    description:
-      'Mapping directional bias, trend strength, and the conditions that signal a shift.',
-  },
-  {
-    number: '03',
     title: 'Repetition of Structure',
     description:
       'Using the fractal nature of markets to anticipate recurring structural behavior across timeframes.',
   },
   {
-    number: '04',
+    number: '02',
+    title: 'MMC — Mirror Market Concept',
+    description:
+      'Reading mirrored price behavior to compare market structure, reactions, and potential continuation.',
+  },
+  {
+    number: '03',
     title: 'Chart Patterns',
     description:
       'Evaluating recurring formations through their location, context, and likely structural outcome.',
   },
   {
-    number: '05',
+    number: '04',
     title: 'Risk Management',
     description:
       'Defining invalidation, protecting capital, and separating a good process from a single outcome.',
   },
   {
-    number: '06',
-    title: 'MMC',
-    description:
-      'Studying momentum, market conditions, and confirmation within a broader structural read.',
-  },
-  {
-    number: '07',
+    number: '05',
     title: 'Candlestick Anatomy & Psychology',
     description:
       'Interpreting candle behavior to read sentiment, exhaustion, and institutional footprints.',
   },
   {
-    number: '08',
-    title: 'Liquidity Concepts',
-    description:
-      'Locating buy-side and sell-side liquidity to distinguish genuine breaks from engineered moves.',
-  },
-  {
-    number: '09',
+    number: '06',
     title: 'Market Structure & Mapping',
     description:
       'Mapping multi-timeframe zones, structural shifts, and directional bias with a repeatable framework.',
@@ -100,7 +82,7 @@ export function AnalysisSection() {
         <div className="mt-16 grid gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
           {TOPICS.map((topic, i) => (
             <ScrollReveal key={topic.number} delay={i * 70}>
-              <div className="group h-full bg-background p-8 transition-all duration-300 hover:-translate-y-1 hover:bg-card">
+              <div className="group relative h-full overflow-hidden bg-background p-8 pb-10 transition-all duration-300 hover:-translate-y-1 hover:bg-card">
                 <span className="font-mono text-xs text-dim transition-colors group-hover:text-primary">
                   {topic.number}
                 </span>
@@ -110,6 +92,10 @@ export function AnalysisSection() {
                 <p className="mt-3 text-sm font-light leading-relaxed text-muted-foreground">
                   {topic.description}
                 </p>
+                <span
+                  aria-hidden="true"
+                  className="absolute inset-x-0 bottom-0 h-1 origin-left scale-x-0 bg-primary transition-transform duration-500 ease-out group-hover:scale-x-100"
+                />
               </div>
             </ScrollReveal>
           ))}
