@@ -54,15 +54,6 @@ export const ACTIVITIES: Activity[] = [
     gallerySlots: ['devil-circuit-01.jpg', 'devil-circuit-02.jpg', 'devil-circuit-03.jpg'],
     instagramHighlightUrl: 'https://www.instagram.com/stories/highlights/17888529267444043/',
   },
-  {
-    slug: 'trekking-outdoors',
-    title: 'Trekking & Outdoors',
-    description: 'Slow miles, clear head — the same reset a good chart review gives me.',
-    intro: 'Time outdoors is a reset from the screen. I will use this page for trails, trips, event photos, and the places that make slowing down feel productive.',
-    highlights: ['Trail notes', 'Trip journals', 'Outdoor event galleries'],
-    gallerySlots: ['trekking-outdoors-01.jpg', 'trekking-outdoors-02.jpg', 'trekking-outdoors-03.jpg'],
-    instagramHighlightUrl: '',
-  },
 ]
 
 export function getActivity(slug: string) {

@@ -8,7 +8,6 @@ const ACTIVITY_CLASS_NAMES = [
   '',
   '',
   '',
-  'sm:col-span-2',
 ]
 
 export function BeyondSection() {
