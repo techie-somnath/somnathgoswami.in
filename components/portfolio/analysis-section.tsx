@@ -83,10 +83,7 @@ export function AnalysisSection() {
           {TOPICS.map((topic, i) => (
             <ScrollReveal key={topic.number} delay={i * 70}>
               <div className="group relative h-full overflow-hidden bg-background p-8 pb-10 transition-all duration-300 hover:-translate-y-1 hover:bg-card">
-                <span className="font-mono text-xs text-dim transition-colors group-hover:text-primary">
-                  {topic.number}
-                </span>
-                <h3 className="mt-4 font-heading text-lg font-semibold text-foreground">
+                <h3 className="font-heading text-lg font-semibold text-foreground">
                   {topic.title}
                 </h3>
                 <p className="mt-3 text-sm font-light leading-relaxed text-muted-foreground">
@@ -94,7 +91,7 @@ export function AnalysisSection() {
                 </p>
                 <span
                   aria-hidden="true"
-                  className="absolute inset-x-0 bottom-0 h-1 origin-left scale-x-0 bg-primary transition-transform duration-500 ease-out group-hover:scale-x-100"
+                  className="absolute inset-x-0 bottom-0 h-1 origin-left scale-x-0 bg-chart-purple transition-transform duration-500 ease-out group-hover:scale-x-100"
                 />
               </div>
             </ScrollReveal>

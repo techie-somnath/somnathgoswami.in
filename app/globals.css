@@ -38,6 +38,7 @@
   --color-background: var(--background);
   --color-dim: var(--dim);
   --color-hairline: var(--hairline);
+  --color-chart-purple: var(--chart-purple);
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
@@ -67,6 +68,7 @@
   --muted: #141414;
   --muted-foreground: #a3a3a3;
   --dim: #6b6b6b;
+  --chart-purple: #9b7cff;
   --accent: #c9a34e;
   --accent-foreground: #0a0a0a;
   --destructive: oklch(0.704 0.191 22.216);
@@ -105,6 +107,7 @@
   --muted: #141414;
   --muted-foreground: #a3a3a3;
   --dim: #6b6b6b;
+  --chart-purple: #9b7cff;
   --accent: #c9a34e;
   --accent-foreground: #0a0a0a;
   --destructive: oklch(0.704 0.191 22.216);
