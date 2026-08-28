@@ -4,37 +4,57 @@ import { CandlestickBackdrop } from '@/components/portfolio/candlestick-backdrop
 const TOPICS = [
   {
     number: '01',
-    title: 'Price action',
+    title: 'Technical Analysis',
     description:
-      'Reading what the candles actually say before anything else.',
+      'A price-first approach to reading markets through structure, momentum, and context.',
   },
   {
     number: '02',
-    title: 'Market structure',
-    description: 'Higher highs, lower lows, and where structure breaks.',
+    title: 'Trend Analysis',
+    description:
+      'Mapping directional bias, trend strength, and the conditions that signal a shift.',
   },
   {
     number: '03',
-    title: 'Trend analysis',
+    title: 'Repetition of Structure',
     description:
-      'Direction, strength, and how long a move has been running.',
+      'Using the fractal nature of markets to anticipate recurring structural behavior across timeframes.',
   },
   {
     number: '04',
-    title: 'Technical indicators',
-    description: 'Used as confirmation, never as the whole argument.',
+    title: 'Chart Patterns',
+    description:
+      'Evaluating recurring formations through their location, context, and likely structural outcome.',
   },
   {
     number: '05',
-    title: 'Risk management',
+    title: 'Risk Management',
     description:
-      'Position sizing and defined invalidation — the boring essentials.',
+      'Defining invalidation, protecting capital, and separating a good process from a single outcome.',
   },
   {
     number: '06',
-    title: 'Market psychology',
+    title: 'MMC',
     description:
-      'Why participants behave the way they do at key levels.',
+      'Studying momentum, market conditions, and confirmation within a broader structural read.',
+  },
+  {
+    number: '07',
+    title: 'Candlestick Anatomy & Psychology',
+    description:
+      'Interpreting candle behavior to read sentiment, exhaustion, and institutional footprints.',
+  },
+  {
+    number: '08',
+    title: 'Liquidity Concepts',
+    description:
+      'Locating buy-side and sell-side liquidity to distinguish genuine breaks from engineered moves.',
+  },
+  {
+    number: '09',
+    title: 'Market Structure & Mapping',
+    description:
+      'Mapping multi-timeframe zones, structural shifts, and directional bias with a repeatable framework.',
   },
 ]
 
@@ -54,8 +74,8 @@ export function AnalysisSection() {
               <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-primary" />
             </span>
             <span className="font-mono text-[11px] uppercase tracking-[0.12em] text-muted-foreground">
-              Currently focused on market structure &amp; order flow —
-              journaling daily
+              Independent chart analysis — mapping structure, liquidity, and
+              sentiment across timeframes
             </span>
           </div>
         </ScrollReveal>
@@ -68,10 +88,12 @@ export function AnalysisSection() {
 
         <ScrollReveal delay={140}>
           <p className="mt-6 max-w-2xl text-pretty text-lg font-light leading-relaxed text-muted-foreground sm:text-xl">
-            This is the thing I&apos;m actually building toward. Not a
-            course I took — a discipline I&apos;m in daily. Markets are a
-            system with structure, feedback and human behaviour baked in,
-            which is exactly the kind of thing I like taking apart slowly.
+            As an independent Chart Analyst, I conduct in-depth technical
+            evaluations of financial markets, focusing on market structure
+            repetition and candlestick analysis rather than indicator-heavy
+            strategies. I map multi-timeframe structures, interpret market
+            sentiment, and isolate critical liquidity to distinguish genuine
+            structural breaks from market fakeouts.
           </p>
         </ScrollReveal>
 

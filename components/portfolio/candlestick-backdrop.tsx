@@ -93,7 +93,7 @@ export function CandlestickBackdrop({ className }: { className?: string }) {
               x2={candle.x}
               y1={candle.top}
               y2={candle.bottom}
-              stroke={candle.up ? '#C9A34E' : '#9a9a9a'}
+              stroke={candle.up ? '#9B7CFF' : '#7F8294'}
               strokeOpacity={candle.up ? 0.55 : 0.32}
               strokeWidth={2.5}
             />
@@ -102,7 +102,7 @@ export function CandlestickBackdrop({ className }: { className?: string }) {
               y={Math.min(candle.o, candle.c)}
               width={16}
               height={Math.max(Math.abs(candle.o - candle.c), 3)}
-              fill={candle.up ? '#C9A34E' : '#9a9a9a'}
+              fill={candle.up ? '#9B7CFF' : '#7F8294'}
               fillOpacity={candle.up ? 0.42 : 0.24}
               stroke="none"
             />
