@@ -87,7 +87,7 @@ export function ConnectSection() {
 
         <ScrollReveal delay={220}>
           <p className="mt-16 font-mono text-[11px] uppercase tracking-[0.2em] text-dim">
-            Somnath Goswami — Built {new Date().getFullYear()}
+            Somnath Goswami
           </p>
         </ScrollReveal>
       </div>

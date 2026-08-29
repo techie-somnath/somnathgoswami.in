@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils'
 
 /**
  * Decorative candlestick / price-action line that draws itself in
- * when scrolled into view. Purely illustrative, low opacity accent gold.
+ * when scrolled into view. Purely illustrative, low opacity purple accent.
  */
 export function ChartLine({ className }: { className?: string }) {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -68,14 +68,14 @@ export function ChartLine({ className }: { className?: string }) {
         preserveAspectRatio="xMidYMid slice"
       >
         {wicks.map((w, i) => (
-          <g key={i} stroke="#C9A34E" strokeOpacity={0.22}>
+          <g key={i} stroke="#9B7CFF" strokeOpacity={0.22}>
             <line x1={w.x} x2={w.x} y1={w.top} y2={w.bottom} strokeWidth={1.5} />
             <rect
               x={w.x - 6}
               y={Math.min(w.o, w.c)}
               width={12}
               height={Math.max(Math.abs(w.o - w.c), 2)}
-              fill="#C9A34E"
+              fill="#9B7CFF"
               fillOpacity={0.16}
               stroke="none"
             />
@@ -85,7 +85,7 @@ export function ChartLine({ className }: { className?: string }) {
           ref={pathRef as any}
           points={linePoints}
           fill="none"
-          stroke="#C9A34E"
+          stroke="#9B7CFF"
           strokeWidth={2}
           strokeLinecap="round"
           strokeLinejoin="round"

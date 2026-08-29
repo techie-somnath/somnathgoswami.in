@@ -1,36 +1,13 @@
+import Link from 'next/link'
 import { ScrollReveal } from '@/components/portfolio/scroll-reveal'
+import { ACTIVITIES } from '@/lib/activities'
 
-const ACTIVITIES = [
-  {
-    title: 'Strength Training',
-    description: 'Progressive overload, tracked and repeated — no shortcuts.',
-    className: 'sm:col-span-2',
-  },
-  {
-    title: 'Running',
-    description: 'Kilometers add up quietly. Consistency over intensity.',
-    className: '',
-  },
-  {
-    title: 'HYROX',
-    description: 'Training for a sport that punishes inconsistency.',
-    className: '',
-  },
-  {
-    title: 'Athletics',
-    description: 'The discipline of showing up on the days you don\u2019t want to.',
-    className: '',
-  },
-  {
-    title: 'Endurance',
-    description: 'Long efforts that reward patience, not bursts.',
-    className: '',
-  },
-  {
-    title: 'Trekking & Outdoors',
-    description: 'Slow miles, clear head — the same reset a good chart review gives me.',
-    className: 'sm:col-span-2',
-  },
+const ACTIVITY_CLASS_NAMES = [
+  'sm:col-span-2',
+  '',
+  '',
+  '',
+  '',
 ]
 
 export function BeyondSection() {
@@ -52,18 +29,25 @@ export function BeyondSection() {
         <div className="mt-14 grid gap-4 sm:grid-cols-3">
           {ACTIVITIES.map((activity, i) => (
             <ScrollReveal
-              key={activity.title}
+              key={activity.slug}
               delay={i * 60}
-              className={activity.className}
+              className={ACTIVITY_CLASS_NAMES[i]}
             >
-              <div className="h-full rounded-xl border border-border bg-card p-7 transition-all duration-300 hover:-translate-y-1 hover:border-primary/40">
+              <Link
+                href={`/beyond/${activity.slug}`}
+                className="group block h-full rounded-xl border border-border bg-card p-7 transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+                aria-label={`Read more about ${activity.title}`}
+              >
                 <h3 className="font-heading text-base font-semibold text-foreground">
                   {activity.title}
                 </h3>
                 <p className="mt-2 text-sm font-light leading-relaxed text-muted-foreground">
                   {activity.description}
                 </p>
-              </div>
+                <span className="mt-6 inline-flex font-mono text-[10px] uppercase tracking-[0.2em] text-dim transition-colors group-hover:text-primary">
+                  View activity
+                </span>
+              </Link>
             </ScrollReveal>
           ))}
         </div>

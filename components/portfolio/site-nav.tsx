@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useEffect, useState } from 'react'
 
 const LINKS = [
@@ -34,15 +35,23 @@ export function SiteNav() {
         <a
           href="#top"
           className="font-heading text-sm font-semibold tracking-tight text-foreground"
+          aria-label="Somnath Goswami home"
         >
-          SG
+          <Image
+            src="/profile_image.jpg"
+            alt="Somnath Goswami"
+            width={36}
+            height={36}
+            className="size-9 rounded-full border border-border object-cover"
+            priority
+          />
         </a>
         <ul className="hidden items-center gap-8 sm:flex">
           {LINKS.map((link) => (
             <li key={link.href}>
               <a
                 href={link.href}
-                className="group relative font-mono text-[11px] uppercase tracking-[0.15em] text-muted-foreground transition-colors hover:text-foreground"
+                className="group relative font-mono text-[10px] font-medium uppercase tracking-[0.24em] text-muted-foreground transition-colors hover:text-foreground"
               >
                 {link.label}
                 <span className="absolute -bottom-1 left-0 h-px w-0 bg-primary transition-all duration-300 group-hover:w-full" />
