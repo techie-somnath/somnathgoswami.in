@@ -61,7 +61,7 @@
   --card-foreground: #ededed;
   --popover: #111111;
   --popover-foreground: #ededed;
-  --primary: #c9a34e;
+  --primary: #9B7CFF;
   --primary-foreground: #0a0a0a;
   --secondary: #141414;
   --secondary-foreground: #ededed;
@@ -69,14 +69,14 @@
   --muted-foreground: #a3a3a3;
   --dim: #6b6b6b;
   --chart-purple: #9B7CFF;
-  --accent: #c9a34e;
+  --accent: #9B7CFF;
   --accent-foreground: #0a0a0a;
   --destructive: oklch(0.704 0.191 22.216);
   --border: #232323;
   --hairline: #232323;
   --input: #232323;
-  --ring: #c9a34e;
-  --chart-1: #c9a34e;
+  --ring: #9B7CFF;
+  --chart-1: #9B7CFF;
   --chart-2: #a3a3a3;
   --chart-3: #6b6b6b;
   --chart-4: #ededed;
@@ -84,12 +84,12 @@
   --radius: 0.5rem;
   --sidebar: #111111;
   --sidebar-foreground: #ededed;
-  --sidebar-primary: #c9a34e;
+  --sidebar-primary: #9B7CFF;
   --sidebar-primary-foreground: #0a0a0a;
   --sidebar-accent: #141414;
   --sidebar-accent-foreground: #ededed;
   --sidebar-border: #232323;
-  --sidebar-ring: #c9a34e;
+  --sidebar-ring: #9B7CFF;
 }
 
 .dark {
@@ -100,7 +100,7 @@
   --card-foreground: #ededed;
   --popover: #111111;
   --popover-foreground: #ededed;
-  --primary: #c9a34e;
+  --primary: #9B7CFF;
   --primary-foreground: #0a0a0a;
   --secondary: #141414;
   --secondary-foreground: #ededed;
@@ -108,26 +108,26 @@
   --muted-foreground: #a3a3a3;
   --dim: #6b6b6b;
   --chart-purple: #9B7CFF;
-  --accent: #c9a34e;
+  --accent: #9B7CFF;
   --accent-foreground: #0a0a0a;
   --destructive: oklch(0.704 0.191 22.216);
   --border: #232323;
   --hairline: #232323;
   --input: #232323;
-  --ring: #c9a34e;
-  --chart-1: #c9a34e;
+  --ring: #9B7CFF;
+  --chart-1: #9B7CFF;
   --chart-2: #a3a3a3;
   --chart-3: #6b6b6b;
   --chart-4: #ededed;
   --chart-5: #232323;
   --sidebar: #111111;
   --sidebar-foreground: #ededed;
-  --sidebar-primary: #c9a34e;
+  --sidebar-primary: #9B7CFF;
   --sidebar-primary-foreground: #0a0a0a;
   --sidebar-accent: #141414;
   --sidebar-accent-foreground: #ededed;
   --sidebar-border: #232323;
-  --sidebar-ring: #c9a34e;
+  --sidebar-ring: #9B7CFF;
 }
 
 @layer base {
