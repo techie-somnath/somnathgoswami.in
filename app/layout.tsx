@@ -16,9 +16,9 @@ const spaceMono = Space_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Somnath Goswami — Full-Stack Developer & Technical Analyst',
+  title: 'Somnath Goswami — Full-Stack Developer & Chart Analyst',
   description:
-    'Full-stack engineer by trade, technical chart analyst by growing obsession. Portfolio of Somnath Goswami.',
+    'Full-stack engineer by trade, chart analyst by growing obsession.',
   generator: 'v0.app',
   icons: {
     icon: [
