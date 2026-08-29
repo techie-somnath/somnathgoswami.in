@@ -16,26 +16,14 @@ const spaceMono = Space_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Somnath Goswami — Full-Stack Developer & Technical Analyst',
+  title: 'Somnath Goswami — Full-Stack Developer & Chart Analyst',
   description:
-    'Full-stack engineer by trade, technical chart analyst by growing obsession. Portfolio of Somnath Goswami.',
+    'Full-stack engineer by trade, chart analyst by growing obsession.',
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/profile_image.jpg',
+    shortcut: '/profile_image.jpg',
+    apple: '/profile_image.jpg',
   },
 }
 
