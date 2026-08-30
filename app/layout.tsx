@@ -28,8 +28,8 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  colorScheme: 'dark',
-  themeColor: '#0a0a0a',
+  colorScheme: 'light',
+  themeColor: '#ffffff',
 }
 
 export default function RootLayout({
@@ -40,7 +40,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`dark bg-background ${plusJakartaSans.variable} ${spaceMono.variable}`}
+      className={`bg-background ${plusJakartaSans.variable} ${spaceMono.variable}`}
     >
       <body className="antialiased font-sans">
         {children}

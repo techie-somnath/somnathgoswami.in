@@ -15,7 +15,7 @@ export function HeroSection() {
             'linear-gradient(to right, var(--hairline) 1px, transparent 1px), linear-gradient(to bottom, var(--hairline) 1px, transparent 1px)',
           backgroundSize: '64px 64px',
           maskImage:
-            'radial-gradient(ellipse 80% 60% at 50% 40%, black 40%, transparent 100%)',
+            'radial-gradient(ellipse 80% 60% at 50% 40%, white 40%, transparent 100%)',
         }}
       />
 
