@@ -39,6 +39,7 @@
   --color-dim: var(--dim);
   --color-hairline: var(--hairline);
   --color-chart-purple: var(--chart-purple);
+  --color-name-muted: var(--name-muted);
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
@@ -68,6 +69,7 @@
   --muted: #f4f2fa;
   --muted-foreground: #514b62;
   --dim: #625b73;
+  --name-muted: #aaa6b2;
   --chart-purple: #9B7CFF;
   --accent: #9B7CFF;
   --accent-foreground: #ffffff;
@@ -107,6 +109,7 @@
   --muted: #f4f2fa;
   --muted-foreground: #514b62;
   --dim: #625b73;
+  --name-muted: #aaa6b2;
   --chart-purple: #9B7CFF;
   --accent: #9B7CFF;
   --accent-foreground: #ffffff;
