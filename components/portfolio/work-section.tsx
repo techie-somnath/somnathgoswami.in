@@ -13,8 +13,7 @@ const ENTRIES = [
       'AngularJS',
       'Azure Functions',
       'Azure DevOps',
-      'SQL Server',
-      'Salesforce APIs',
+      'SQL Server'
     ],
   },
   {

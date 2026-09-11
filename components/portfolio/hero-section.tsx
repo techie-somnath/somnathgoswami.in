@@ -24,13 +24,13 @@ export function HeroSection() {
         </h1>
 
         <p className="mt-8 font-mono text-sm tracking-wide text-primary sm:text-base">
-          Full-Stack Developer <span className="px-2 text-dim">/</span> Chart Analyst <span className="px-2 text-dim">/</span> Endurance Athlete
+          Full-Stack Developer <span className="px-2 text-dim">/</span> Chart Analyst <span className="px-2 text-dim">/</span> Hybrid Athlete
         </p>
 
         <p className="mt-6 max-w-xl text-pretty text-base font-normal leading-relaxed text-foreground sm:text-lg">
           Full-stack engineer by trade. Technical analyst by growing
           obsession. Four years building production systems — now spending my
-          early mornings studying markets, with one goal: doing it full-time.
+          late nights studying markets and analyzing charts.
         </p>
       </div>
 

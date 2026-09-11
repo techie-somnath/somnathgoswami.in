@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils'
 const ROLES = [
   'Full-Stack Developer',
   'Chart Analyst',
-  'Endurance Athlete',
+  'Hybrid Athlete',
 ]
 
 export function RotatingRole() {
