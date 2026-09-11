@@ -51,7 +51,7 @@ export const ACTIVITIES: Activity[] = [
     description: 'A demanding circuit where grit, speed, and endurance meet.',
     intro: 'Devil Circuit is a test of discipline under pressure. I will use this page to capture the preparation, event memories, and lessons from pushing through every round.',
     highlights: ['Circuit preparation', 'Event memories', 'Lessons from the effort'],
-    gallerySlots: ['devil-circuit-01.jpg', 'devil-circuit-02.jpg', 'devil-circuit-03.jpg'],
+    gallerySlots: ['devil-circuit-01.jpg', 'devil-circuit-02.jpg', 'devil-circuit-03.jpg', 'devil-circuit-04.jpg', 'devil-circuit-05.jpg'],
     instagramHighlightUrl: 'https://www.instagram.com/stories/highlights/17888529267444043/',
   },
 ]
