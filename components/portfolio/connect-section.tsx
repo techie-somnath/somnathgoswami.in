@@ -56,11 +56,6 @@ export function ConnectSection() {
   return (
     <section id="connect" className="px-6 py-28 sm:px-10 sm:py-40">
       <div className="mx-auto flex max-w-2xl flex-col items-center text-center">
-        <ScrollReveal>
-          <p className="font-mono text-xs uppercase tracking-[0.25em] text-dim">
-            Connect
-          </p>
-        </ScrollReveal>
 
         <ScrollReveal delay={80}>
           <h2 className="mt-4 font-heading text-4xl font-bold tracking-tight text-foreground sm:text-5xl">

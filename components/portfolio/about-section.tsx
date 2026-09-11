@@ -13,22 +13,13 @@ export function AboutSection() {
         <ScrollReveal delay={80}>
           <div className="mt-8 space-y-6 text-center text-lg font-light leading-relaxed text-muted-foreground sm:text-xl">
             <p>
-              I like sitting with a confusing problem until it becomes
-              simple. That&apos;s true whether it&apos;s a system that
-              won&apos;t scale or a chart that doesn&apos;t make sense yet —
-              give it enough patient attention and the structure underneath
-              starts to show itself.
+              I like sitting with a confusing problem until it becomes simple. With 4 years of experience engineering robust full-stack systems, I build software that scales cleanly and turns complex ideas into reality. But code is only half the equation. Where my raw curiosity lives is in the markets. I spend my late nights mapping multi-timeframe structures and studying repetition in markets, decoding liquidity pools and market psychology long before the charts close. Whether I'm architecting code or mapping market structure, the mission is always the same: strip away the noise until the underlying pattern reveals itself.
             </p>
             <p>
-              I write software because it turns ideas into something real.
-              But I&apos;ll be direct about where my attention actually
-              goes: coding pays the bills. Markets are where my curiosity
-              actually lives. I read charts in the mornings, study price
-              action in the evenings, and I&apos;m working toward making
-              analysis the full-time job.
+              When I'm not architecting systems, you'll find me analyzing market trends and deep-diving into financial charts. I'm a hybrid athlete, so I also spend my evenings running, cycling, and gym — often all in the same day.
             </p>
             <p className="text-foreground">
-              Learn something, apply it, repeat.
+              Build systems. Read the charts. Repeat.
             </p>
           </div>
         </ScrollReveal>
