@@ -1,5 +1,3 @@
-import { RotatingRole } from '@/components/portfolio/rotating-role'
-
 export function HeroSection() {
   return (
     <section
@@ -15,21 +13,21 @@ export function HeroSection() {
             'linear-gradient(to right, var(--hairline) 1px, transparent 1px), linear-gradient(to bottom, var(--hairline) 1px, transparent 1px)',
           backgroundSize: '64px 64px',
           maskImage:
-            'radial-gradient(ellipse 80% 60% at 50% 40%, black 40%, transparent 100%)',
+            'radial-gradient(ellipse 80% 60% at 50% 40%, white 40%, transparent 100%)',
         }}
       />
 
       <div className="mx-auto w-full max-w-5xl">
         <h1 className="mt-6 font-heading text-[12vw] font-extrabold uppercase leading-[0.88] tracking-[-0.02em] sm:text-5xl md:text-6xl lg:text-[5.5rem]">
           <span className="block text-foreground">Somnath</span>
-          <span className="block text-muted-foreground">Goswami</span>
+          <span className="block text-name-muted">Goswami</span>
         </h1>
 
-        <div className="mt-8 h-6">
-          <RotatingRole />
-        </div>
+        <p className="mt-8 font-mono text-sm tracking-wide text-primary sm:text-base">
+          Full-Stack Developer <span className="px-2 text-dim">/</span> Chart Analyst <span className="px-2 text-dim">/</span> Endurance Athlete
+        </p>
 
-        <p className="mt-6 max-w-xl text-pretty text-base font-light leading-relaxed text-muted-foreground sm:text-lg">
+        <p className="mt-6 max-w-xl text-pretty text-base font-normal leading-relaxed text-foreground sm:text-lg">
           Full-stack engineer by trade. Technical analyst by growing
           obsession. Four years building production systems — now spending my
           early mornings studying markets, with one goal: doing it full-time.

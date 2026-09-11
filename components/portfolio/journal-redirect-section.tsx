@@ -53,26 +53,29 @@ export function JournalRedirectSection() {
           </p>
         </ScrollReveal>
 
-        <div className="mt-16 grid gap-4 sm:grid-cols-3">
+        <div className="mt-16 grid gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
           {JOURNAL_OPTIONS.map((option, i) => (
-            <ScrollReveal key={option.slug} delay={i * 70}>
+            <ScrollReveal key={option.slug} delay={i * 70} className="h-full">
               <Link
                 href={`/journal/${option.slug}`}
-                className="group relative overflow-hidden rounded-xl border border-border bg-card p-8 transition-all duration-300 hover:bg-background hover:shadow-lg"
+                className="group relative block h-full overflow-hidden bg-background p-8 pb-10 transition-all duration-300 hover:-translate-y-1 hover:bg-card"
               >
-                <div className="absolute inset-0 z-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
                 <div className="relative z-10">
-                  <h3 className="font-heading text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
+                  <h3 className="font-heading text-lg font-semibold text-foreground transition-colors group-hover:text-primary">
                     {option.title}
                   </h3>
                   <p className="mt-3 text-sm font-light leading-relaxed text-muted-foreground">
                     {option.description}
                   </p>
                   <div className="mt-6 flex items-center gap-2 text-primary opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                    <span className="text-xs uppercase tracking-wider">Open</span>
-                    <ArrowUpRight className="h-4 w-4" />
+                    <span className="font-mono text-xs uppercase tracking-wider">Open</span>
+                    <ArrowUpRight className="size-4" />
                   </div>
                 </div>
+                <span
+                  aria-hidden="true"
+                  className="absolute inset-x-0 bottom-0 h-1 origin-left scale-x-0 bg-chart-purple transition-transform duration-500 ease-out group-hover:scale-x-100"
+                />
               </Link>
             </ScrollReveal>
           ))}

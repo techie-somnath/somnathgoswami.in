@@ -3,7 +3,7 @@ import { ScrollReveal } from '@/components/portfolio/scroll-reveal'
 import { ACTIVITIES } from '@/lib/activities'
 
 const ACTIVITY_CLASS_NAMES = [
-  'sm:col-span-2',
+  '',
   '',
   '',
   '',
