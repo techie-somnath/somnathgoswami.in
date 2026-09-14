@@ -8,13 +8,13 @@ export function HeroSection() {
         <img
           src="/images/snow-portrait.jpg"
           alt=""
-          className="h-full w-full object-cover object-[62%_35%] opacity-[0.64] saturate-[0.95]"
+          className="h-full w-full object-cover object-[70%_35%] opacity-[0.64] saturate-[0.95]"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/25 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-background/75 via-transparent to-background/5" />
       </div>
 
-      <div className="relative z-10 mx-auto w-full max-w-5xl lg:-translate-x-10">
+      <div className="relative z-10 mx-auto w-full max-w-5xl lg:-translate-x-20">
         <h1 className="mt-6 font-heading text-[12vw] font-extrabold uppercase leading-[0.88] tracking-[-0.02em] sm:text-5xl md:text-6xl lg:text-[5.5rem]">
           <span className="block text-foreground">Somnath</span>
           <span className="block text-name-muted">Goswami</span>
