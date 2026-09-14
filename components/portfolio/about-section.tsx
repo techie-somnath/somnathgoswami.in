@@ -18,7 +18,7 @@ export function AboutSection() {
             <p>
               Whether debugging code or analyzing charts, my mission is simple: strip away the noise until the underlying pattern reveals itself. Outside the screen, you'll find me training as a hybrid athlete—running, cycling, and hitting the gym, often all in one day.
             </p>
-            <p className="text-foreground">
+            <p className="text-foreground font-semibold">
               Build systems. Read the charts. Repeat.
             </p>
           </div>
