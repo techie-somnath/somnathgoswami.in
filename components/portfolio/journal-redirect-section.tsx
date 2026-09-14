@@ -53,7 +53,7 @@ export function JournalRedirectSection() {
           </p>
         </ScrollReveal>
 
-        <div className="mt-16 grid gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
+        <div className="relative mt-16 grid gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
           {JOURNAL_OPTIONS.map((option, i) => (
             <ScrollReveal key={option.slug} delay={i * 70} className="h-full">
               <Link
@@ -79,6 +79,11 @@ export function JournalRedirectSection() {
               </Link>
             </ScrollReveal>
           ))}
+          <div className="absolute inset-0 z-20 flex items-start justify-center bg-background/60 px-6 pt-6 backdrop-blur-[3px]" aria-label="Trading journals coming soon">
+            <span className="rounded-full border border-primary/30 bg-primary px-5 py-2 font-mono text-xs font-semibold uppercase tracking-[0.2em] text-primary-foreground shadow-lg shadow-primary/20">
+              Coming Soon
+            </span>
+          </div>
         </div>
       </div>
     </section>
