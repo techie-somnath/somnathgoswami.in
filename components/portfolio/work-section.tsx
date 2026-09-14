@@ -7,10 +7,11 @@ const ENTRIES = [
     org: 'CG Infinity',
     period: '2022 — Present',
     description:
-      'Engineered secure, high-throughput APIs and seamless enterprise integrations to automate complex business processes. Spearheaded feature rollouts, enhanced system uptime, and maintained automated CI/CD delivery pipelines.',
+      'Engineered scalable full-stack applications and secure APIs leveraging C#, .NET Core, and Node.js. Built event-driven, serverless workflows utilizing Azure Functions to optimize cloud performance, while managing automated CI/CD delivery pipelines on Azure DevOps and delivering dynamic user interfaces with AngularJS and Next.js.',
     stack: [
       '.NET Core',
       'AngularJS',
+      'NextJS',
       'Azure Functions',
       'Azure DevOps',
       'SQL Server'
