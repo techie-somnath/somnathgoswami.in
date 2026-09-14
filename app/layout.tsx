@@ -1,4 +1,5 @@
 import { Analytics } from '@vercel/analytics/next'
+import Script from 'next/script';
 import type { Metadata, Viewport } from 'next'
 import { Plus_Jakarta_Sans, Space_Mono } from 'next/font/google'
 import './globals.css'
@@ -43,6 +44,19 @@ export default function RootLayout({
       className={`bg-background ${plusJakartaSans.variable} ${spaceMono.variable}`}
     >
       <body className="antialiased font-sans">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-2LG9W958QB"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){window.dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-2LG9W958QB');
+    `}
+        </Script>
+
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
