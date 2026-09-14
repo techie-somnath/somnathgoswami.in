@@ -8,10 +8,10 @@ export function HeroSection() {
         <img
           src="/images/snow-portrait.jpg"
           alt=""
-          className="h-full w-full object-cover object-[center_35%] opacity-[0.48] saturate-[0.9]"
+          className="h-full w-full object-cover object-[56%_35%] opacity-[0.58] saturate-[0.95]"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/35 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-background/85 via-transparent to-background/10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/25 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background/75 via-transparent to-background/5" />
       </div>
 
       {/* faint background grid */}
