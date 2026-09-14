@@ -39,14 +39,13 @@ export function WorkSection() {
 
         <ScrollReveal delay={80}>
           <h2 className="mt-4 font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            Where the discipline started.
+            Building at Scale.
           </h2>
         </ScrollReveal>
 
         <ScrollReveal delay={140}>
           <p className="mt-4 max-w-xl text-base font-light leading-relaxed text-muted-foreground">
-            Engineering taught me how to sit with a system until it made
-            sense — the same instinct I now point at charts.
+            Building software taught me how to break down complex systems until the underlying logic reveals itself.
           </p>
         </ScrollReveal>
 
