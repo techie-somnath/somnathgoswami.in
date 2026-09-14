@@ -8,16 +8,16 @@ export function HeroSection() {
         <img
           src="/images/snow-portrait.jpg"
           alt=""
-          className="h-full w-full object-cover object-[center_35%] opacity-[0.16]"
+          className="h-full w-full object-cover object-[center_35%] opacity-[0.48] saturate-[0.9]"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-background/25" />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/30" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/35 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background/85 via-transparent to-background/10" />
       </div>
 
       {/* faint background grid */}
       <div
         aria-hidden="true"
-        className="absolute inset-0 z-0 opacity-[0.35]"
+        className="absolute inset-0 z-[1] opacity-[0.16]"
         style={{
           backgroundImage:
             'linear-gradient(to right, var(--hairline) 1px, transparent 1px), linear-gradient(to bottom, var(--hairline) 1px, transparent 1px)',
