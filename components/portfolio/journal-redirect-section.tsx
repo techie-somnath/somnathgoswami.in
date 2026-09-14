@@ -79,7 +79,7 @@ export function JournalRedirectSection() {
               </Link>
             </ScrollReveal>
           ))}
-          <div className="absolute inset-0 z-20 flex items-start justify-center bg-background/60 px-6 pt-6 backdrop-blur-[3px]" aria-label="Trading journals coming soon">
+          <div className="absolute inset-0 z-20 flex items-center justify-center bg-background/60 px-6 backdrop-blur-[3px]" aria-label="Trading journals coming soon">
             <span className="rounded-full border border-primary/30 bg-primary px-5 py-2 font-mono text-xs font-semibold uppercase tracking-[0.2em] text-primary-foreground shadow-lg shadow-primary/20">
               Coming Soon
             </span>
