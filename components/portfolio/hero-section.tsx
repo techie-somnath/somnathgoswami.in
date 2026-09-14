@@ -4,20 +4,17 @@ export function HeroSection() {
       id="top"
       className="relative flex min-h-[100vh] flex-col justify-center overflow-hidden px-6 sm:px-10"
     >
-      {/* faint background grid */}
-      <div
-        aria-hidden="true"
-        className="absolute inset-0 -z-10 opacity-[0.35]"
-        style={{
-          backgroundImage:
-            'linear-gradient(to right, var(--hairline) 1px, transparent 1px), linear-gradient(to bottom, var(--hairline) 1px, transparent 1px)',
-          backgroundSize: '64px 64px',
-          maskImage:
-            'radial-gradient(ellipse 80% 60% at 50% 40%, white 40%, transparent 100%)',
-        }}
-      />
+      <div aria-hidden="true" className="absolute inset-0 z-0 overflow-hidden">
+        <img
+          src="/images/snow-portrait.jpg"
+          alt=""
+          className="h-full w-full object-cover object-[70%_35%] opacity-[0.64] saturate-[0.95]"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/25 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background/75 via-transparent to-background/5" />
+      </div>
 
-      <div className="mx-auto w-full max-w-5xl">
+      <div className="relative z-10 mx-auto w-full max-w-5xl lg:-translate-x-20">
         <h1 className="mt-6 font-heading text-[12vw] font-extrabold uppercase leading-[0.88] tracking-[-0.02em] sm:text-5xl md:text-6xl lg:text-[5.5rem]">
           <span className="block text-foreground">Somnath</span>
           <span className="block text-name-muted">Goswami</span>
@@ -36,7 +33,7 @@ export function HeroSection() {
 
       <a
         href="#about"
-        className="absolute bottom-10 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2 text-dim transition-colors hover:text-muted-foreground"
+        className="absolute bottom-10 left-1/2 z-10 flex -translate-x-1/2 flex-col items-center gap-2 text-dim transition-colors hover:text-muted-foreground"
         aria-label="Scroll to About section"
       >
         <span className="font-mono text-[10px] uppercase tracking-[0.2em]">

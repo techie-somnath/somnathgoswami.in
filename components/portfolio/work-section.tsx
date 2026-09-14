@@ -7,10 +7,11 @@ const ENTRIES = [
     org: 'CG Infinity',
     period: '2022 — Present',
     description:
-      'Engineered secure, high-throughput APIs and seamless enterprise integrations to automate complex business processes. Spearheaded feature rollouts, enhanced system uptime, and maintained automated CI/CD delivery pipelines.',
+      'Engineered scalable full-stack applications and secure APIs leveraging C#, .NET Core, and Node.js. Built event-driven, serverless workflows utilizing Azure Functions to optimize cloud performance, while managing automated CI/CD delivery pipelines on Azure DevOps and delivering dynamic user interfaces with AngularJS and Next.js.',
     stack: [
       '.NET Core',
       'AngularJS',
+      'NextJS',
       'Azure Functions',
       'Azure DevOps',
       'SQL Server'
@@ -38,14 +39,13 @@ export function WorkSection() {
 
         <ScrollReveal delay={80}>
           <h2 className="mt-4 font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            Where the discipline started.
+            Building at Scale
           </h2>
         </ScrollReveal>
 
         <ScrollReveal delay={140}>
           <p className="mt-4 max-w-xl text-base font-light leading-relaxed text-muted-foreground">
-            Engineering taught me how to sit with a system until it made
-            sense — the same instinct I now point at charts.
+            Building software taught me how to break down complex systems until the underlying logic reveals itself.
           </p>
         </ScrollReveal>
 

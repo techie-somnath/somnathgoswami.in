@@ -42,7 +42,7 @@ function InstagramIcon() {
 }
 
 const LINKS = [
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/somnath-goswami-a9690a199/', Icon: LinkedinIcon },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/somnathgoswami/', Icon: LinkedinIcon },
   { label: 'GitHub', href: 'https://github.com/techie-somnath', Icon: GithubIcon },
   {
     label: 'Instagram',

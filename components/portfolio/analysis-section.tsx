@@ -12,7 +12,7 @@ const TOPICS = [
     number: '02',
     title: 'MMC — Mirror Market Concept',
     description:
-      'Reading mirrored price behavior to compare market structure, reactions, and potential continuation.',
+      'Developed by Candle King, this concept targets market reversals.',
   },
   {
     number: '03',
@@ -70,12 +70,7 @@ export function AnalysisSection() {
 
         <ScrollReveal delay={140}>
           <p className="mt-6 max-w-2xl text-pretty text-lg font-light leading-relaxed text-muted-foreground sm:text-xl">
-            As an independent Chart Analyst, I conduct in-depth technical
-            evaluations of financial markets, focusing on market structure
-            repetition and candlestick analysis rather than indicator-heavy
-            strategies. I map multi-timeframe structures, interpret market
-            sentiment, and isolate critical liquidity to distinguish genuine
-            structural breaks from market fakeouts.
+            Independent Chart Analyst navigating financial markets through technical structure, pattern repetition, and liquidity concepts. I specialize in trend analysis, candlestick psychology, and robust risk management.
           </p>
         </ScrollReveal>
 
