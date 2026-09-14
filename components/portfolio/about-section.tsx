@@ -13,10 +13,10 @@ export function AboutSection() {
         <ScrollReveal delay={80}>
           <div className="mt-8 space-y-6 text-center text-lg font-light leading-relaxed text-muted-foreground sm:text-xl">
             <p>
-              I like sitting with a confusing problem until it becomes simple. With 4 years of experience engineering robust full-stack systems, I build software that scales cleanly and turns complex ideas into reality. But code is only half the equation. Where my raw curiosity lives is in the markets. I spend my late nights mapping multi-timeframe structures and studying repetition in markets, decoding liquidity pools and market psychology long before the charts close. Whether I'm architecting code or mapping market structure, the mission is always the same: strip away the noise until the underlying pattern reveals itself.
+              With 4 years of full-stack engineering experience, I build robust, scalable software that turns complex ideas into reality. When I'm not architecting systems, my curiosity lives in the markets—spending late nights mapping multi-timeframe structures, liquidity pools, and price repetition.
             </p>
             <p>
-              When I'm not architecting systems, you'll find me analyzing market trends and deep-diving into financial charts. I'm a hybrid athlete, so I also spend my evenings running, cycling, and gym — often all in the same day.
+              Whether debugging code or analyzing charts, my mission is simple: strip away the noise until the underlying pattern reveals itself. Outside the screen, you'll find me training as a hybrid athlete—running, cycling, and hitting the gym, often all in one day.
             </p>
             <p className="text-foreground">
               Build systems. Read the charts. Repeat.
