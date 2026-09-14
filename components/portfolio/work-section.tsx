@@ -39,7 +39,7 @@ export function WorkSection() {
 
         <ScrollReveal delay={80}>
           <h2 className="mt-4 font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            Building at Scale.
+            Building at Scale
           </h2>
         </ScrollReveal>
 
