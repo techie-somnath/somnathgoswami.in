@@ -12,7 +12,7 @@ const TOPICS = [
     number: '02',
     title: 'MMC — Mirror Market Concept',
     description:
-      'Reading mirrored price behavior to compare market structure, reactions, and potential continuation.',
+      'Developed by Candle King, this concept targets market reversals.',
   },
   {
     number: '03',
