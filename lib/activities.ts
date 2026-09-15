@@ -53,7 +53,7 @@ export const ACTIVITIES: Activity[] = [
 import fs from 'node:fs'
 import path from 'node:path'
 
-const ACTIVITY_IMAGE_EXTENSIONS = new Set(['.jpg', '.jpeg', '.png', '.webp', '.avif'])
+const ACTIVITY_IMAGE_EXTENSIONS = new Set(['.jpg', '.jpeg', '.png', '.webp', '.avif', '.heic', '.heif'])
 
 export function getActivity(slug: string) {
   return ACTIVITIES.find((activity) => activity.slug === slug)
