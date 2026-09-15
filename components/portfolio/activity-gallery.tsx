@@ -35,7 +35,7 @@ export function ActivityGallery({ title, images }: ActivityGalleryProps) {
 
   return (
     <>
-      <div className="mx-auto grid max-w-3xl grid-cols-2 gap-3 sm:grid-cols-3">
+      <div className="mx-auto grid w-full max-w-5xl grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
         {images.map((src, index) => (
           <button
             key={src}
@@ -48,7 +48,7 @@ export function ActivityGallery({ title, images }: ActivityGalleryProps) {
               src={src}
               alt={`${title} event photo ${index + 1}`}
               fill
-              sizes="(max-width: 640px) 50vw, 33vw"
+              sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
               className="object-cover transition duration-500 group-hover:scale-105"
             />
             <span className="absolute inset-0 bg-foreground/0 transition group-hover:bg-foreground/15" />
