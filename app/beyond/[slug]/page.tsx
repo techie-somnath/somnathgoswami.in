@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { ArrowLeft, ArrowUpRight } from 'lucide-react'
 import { ActivityGallery } from '@/components/portfolio/activity-gallery'
-import { getActivity, ACTIVITIES } from '@/lib/activities'
+import { getActivity, getActivityImages, ACTIVITIES } from '@/lib/activities'
 
 export function generateStaticParams() {
   return ACTIVITIES.map((activity) => ({ slug: activity.slug }))
@@ -31,6 +31,8 @@ export default async function ActivityPage({
   const activity = getActivity(slug)
 
   if (!activity) notFound()
+
+  const activityImages = getActivityImages(activity.slug)
 
   return (
     <main className="min-h-screen bg-background px-6 py-8 sm:px-10 sm:py-12">
@@ -84,18 +86,7 @@ export default async function ActivityPage({
           </div>
 
           <div className="mt-8">
-            {activity.slug === 'hyrox' ? (
-              <div className="flex aspect-[16/9] items-center justify-center border border-border bg-card">
-                <div className="px-6 py-5 text-center sm:px-12 sm:py-8">
-                  <p className="font-mono text-xs uppercase tracking-[0.25em] text-primary">Event archive</p>
-                  <p className="mt-3 font-heading text-4xl font-extrabold uppercase tracking-tight text-foreground sm:text-7xl">
-                    Coming soon
-                  </p>
-                </div>
-              </div>
-            ) : (
-              <ActivityGallery title={activity.title} slots={activity.gallerySlots} />
-            )}
+            <ActivityGallery title={activity.title} images={activityImages} />
           </div>
         </section>
 
