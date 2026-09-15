@@ -35,7 +35,7 @@ export function ActivityGallery({ title, images }: ActivityGalleryProps) {
 
   return (
     <>
-      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+      <div className="mx-auto grid max-w-3xl grid-cols-2 gap-3 sm:grid-cols-3">
         {images.map((src, index) => (
           <button
             key={src}
